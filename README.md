@@ -1,5 +1,7 @@
 This repository provides code for *The Traveling Bandit: A Framework for Bayesian Optimization with Movement Costs*.
 
+We propose a framework for Bayesian optimization (BO) with movement costs, in which the designs within each batch are visited in the order given by a Traveling Salesman Problem, reducing the cost of moving between inputs.
+
 
 Below is an instruction on how to set up the required environment. First, please open Anaconda Powershell. Locate this folder set it as the workspace by 
 
@@ -45,3 +47,20 @@ python figure.py
 ```
 
 The output will be saved under 2d_Griewank/Figures folder.
+
+## Citation
+
+[Paper](https://doi.org/10.1080/00401706.2025.2573228) (Technometrics, 2026). If you use this code, please cite:
+
+```bibtex
+@article{chen2026traveling,
+  title={The Traveling Bandit: A Framework for {B}ayesian Optimization with Movement Costs},
+  author={Chen, Qiyuan and Al Kontar, Raed},
+  journal={Technometrics},
+  volume={68},
+  number={2},
+  pages={239--250},
+  year={2026},
+  doi={10.1080/00401706.2025.2573228}
+}
+```
